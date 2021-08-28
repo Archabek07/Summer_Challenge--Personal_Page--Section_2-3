@@ -11,9 +11,43 @@
       rel="stylesheet"
     />
     <title>My Personal Site</title>
+
     <style>
       body {
         font-family: "Noto Sans JP", sans-serif;
+        padding: 15px;
+      }
+
+      hr {
+        border-width: 5px;
+        border-style: none;
+        border-top-style: dotted;
+        width: 30%;
+        color: gray;
+        margin-inline-start: 0;
+      }
+
+      h1,
+      h2 {
+        color: rgb(14, 122, 117);
+      }
+
+      a {
+        display: block;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+      th {
+        padding-bottom: 5px;
+      }
+
+      td {
+        background-color: blanchedalmond;
+      }
+      td:nth-child(2n + 1) {
+        background-color: aliceblue;
       }
     </style>
   </head>
@@ -36,11 +70,10 @@
       >
     </p>
 
-    <br />
     <hr />
-    <a href="hobbies.html">Hobbies</a>
-    <br />
-    <a href="goals.html">Goals</a>
+    <a href="./inner pages/hobbies.html">Hobbies</a>
+    <a href="./inner pages/goals.html">Goals</a>
+
     <hr />
     <h2>Skills</h2>
     <table>
@@ -66,8 +99,14 @@
         <td align="left" width="200">Java Script</td>
         <td>⭐⭐</td>
       </tr>
+      <tr>
+        <td align="left" width="200">React</td>
+        <td>⭐</td>
+      </tr>
     </table>
+    <br />
     <hr />
-    <a href="contacts.html">Conacts</a>
+    <br />
+    <a href="./inner pages/contacts.html">Contacts</a>
   </body>
 </html>
